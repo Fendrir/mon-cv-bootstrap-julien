@@ -1,0 +1,134 @@
+
+body {
+
+background-image:url("../Fond-abstrait.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+/*.row [class^="col-"] {
+    
+    
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+*/
+.espace-navbar {
+
+margin-top: 35px;
+
+padding-bottom: 70px;
+
+}
+
+h1{
+
+color: blue;
+font-family: Tahoma, sans-serif;
+font-style: bold;
+font-size: 30px;
+text-align: center;
+
+background-color: rgba(255,255,255,0.5);
+
+}
+
+.container {
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+
+padding-right: 15px;
+
+padding-left: 15px;
+
+margin-right: auto;
+
+margin-left: auto;
+
+}
+
+
+
+ul {
+font-family: Tahoma, sans-serif; 
+list-style-type:none;
+
+}
+
+.photo-profil{
+
+	width: 150px;
+	height: 150px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius:10%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+}
+ 
+
+.liste-en-tête {
+
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+
+.liste-en-tête-2 {
+
+margin-top: 10px;
+margin-bottom: 5px;
+
+}
+
+h2 {
+
+color: blue;
+font-family: Tahoma, sans-serif;
+text-decoration: underline;
+font-style: bold;
+font-size: 28px;
+text-align: center;
+background-color: rgba(255,255,255,0.5);
+
+}
+
+h3 {
+
+color: orange;
+font-family: Tahoma, sans-serif;
+text-decoration: underline;
+font-weight: bold;
+font-size: 28px;
+text-align: center;
+background-color: rgba(255,255,255,0.5);
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.res-social{
+margin-left: 10%;
+margin-right: 10%;
+
+background-color: rgba(255,255,255,0.5);
+}
+
+p {
+
+font-family: Tahoma, sans-serif;
+font-size: 16px;
+justify-content: center;
+background-color: rgba(255,255,255,0.5);
+padding-right: 5px;
+padding-left: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
