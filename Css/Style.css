@@ -138,3 +138,25 @@ padding-top: 5px;
 padding-bottom: 5px;
 
 }
+
+/*@media all and (max-width: 520px) {
+    h3 {
+        font-size: 135%;
+    }
+    p li {
+        font-size: 90%;
+    }
+    aside, .photo {
+        text-align: left;
+        margin-left: 0px;
+    }
+}*/
+
+@media all and (max-width: 520px) {
+    iframe{
+
+    	width: 320px; 
+    	height:240px;
+
+    }
+}
