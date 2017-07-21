@@ -4,6 +4,7 @@ body {
 background-image:url("../Fond-abstrait.jpg");
 background-repeat: no-repeat;
 background-size:cover;
+background-attachment: fixed;
 
 }
 
@@ -16,9 +17,14 @@ background-size:cover;
     border: 1px solid rgba(86,61,124,.2);
 }
 */
-.espace-navbar {
 
-margin-top: 35px;
+nav {
+
+	height: 70px;
+
+}
+
+.espace-navbar {
 
 padding-bottom: 70px;
 
