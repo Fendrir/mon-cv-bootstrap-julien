@@ -18,15 +18,15 @@ background-attachment: fixed;
 }
 */
 
-nav {
+/* nav {
 
-	height: 70px;
+	height: 50px;
 
-}
+} */
 
 .espace-navbar {
 
-padding-bottom: 70px;
+padding-bottom: 60px;
 
 }
 
@@ -38,7 +38,7 @@ font-style: bold;
 font-size: 30px;
 text-align: center;
 
-background-color: rgba(255,255,255,0.5);
+/* background-color: rgba(255,255,255,0.5); */
 
 }
 
@@ -58,7 +58,11 @@ margin-left: auto;
 
 }
 
+.list-group{
 
+    /* background-color: rgba(255,255,255,0.5); */
+
+}
 
 ul {
 font-family: Tahoma, sans-serif; 
@@ -98,6 +102,7 @@ margin-bottom: 5px;
 h2 {
 
 color: blue;
+border-radius:5px;
 font-family: Tahoma, sans-serif;
 text-decoration: underline;
 font-style: bold;
@@ -110,6 +115,7 @@ background-color: rgba(255,255,255,0.5);
 h3 {
 
 color: orange;
+border-radius:5px;
 font-family: Tahoma, sans-serif;
 text-decoration: underline;
 font-weight: bold;
@@ -119,9 +125,26 @@ background-color: rgba(255,255,255,0.5);
 text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
+.fili_blanc {
+
+    background-color: rgba(255,255,255,0.5);
+    font-family: Tahoma, sans-serif;
+    font-size: 17px;
+    justify-content: center;
+    border: 0px 0px 0px 5px solid black;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
 .res-social{
 margin-left: 10%;
 margin-right: 10%;
+border-radius:5px;
 
 background-color: rgba(255,255,255,0.5);
 }
@@ -131,7 +154,7 @@ p {
 font-family: Tahoma, sans-serif;
 font-size: 16px;
 justify-content: center;
-background-color: rgba(255,255,255,0.5);
+
 padding-right: 5px;
 padding-left: 5px;
 padding-top: 5px;
