@@ -41,7 +41,7 @@ padding-bottom: 60px;
 
 h1{
 
-color: blue;
+color: rgb(56, 170, 236);
 font-family: Tahoma, sans-serif;
 font-style: bold;
 font-size: 30px;
@@ -110,7 +110,7 @@ margin-bottom: 5px;
 
 h2 {
 
-color: blue;
+color: rgb(56, 170, 236);
 border-radius:5px;
 font-family: Tahoma, sans-serif;
 text-decoration: underline;
@@ -132,6 +132,12 @@ font-size: 28px;
 text-align: center;
 background-color: rgba(255,255,255,0.5);
 text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+h4 {
+
+color: rgb(207, 78, 26);
+
 }
 
 .fili_blanc {
@@ -191,4 +197,51 @@ padding-bottom: 5px;
     	height:240px;
 
     }
+}
+
+/* test boutons */
+
+.outline-bouton{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(207, 78, 26);
+    text-align: center;
+    transition: all 0.15s ease-in-out;
+    width: 10em;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    line-height: 1.25;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-weight: normal;
+    
+}
+
+.outline-bouton li {
+    color: rgb(207, 78, 26);
+}
+
+.outline-bouton li:hover {
+    color: white;
+    transition: all 0.15s ease-in-out;
+}
+
+.outline-bouton:hover {
+    color: #fff;
+    background-color: rgb(207, 78, 26);
+    border-color: rgb(207, 78, 26);
+}
+
+.outline-bouton:active, .outline-bouton.active,
+.show > .outline-bouton.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(207, 78, 26);
+    border-color: rgb(207, 78, 26);
+}
+
+.outline-bouton.active li {
+    color: white;
 }
