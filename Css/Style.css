@@ -160,6 +160,7 @@ color: rgb(207, 78, 26);
 margin-left: 10%;
 margin-right: 10%;
 border-radius:5px;
+font-size: 12px;
 
 background-color: rgba(255,255,255,0.5);
 }
@@ -201,47 +202,57 @@ padding-bottom: 5px;
 
 /* test boutons */
 
-.outline-bouton{
-    display: inline-block;
+.btn-info, .btn-info:hover {
+    font-size: 0.8em;
+    background-color: #A22335;
+    border: 1px solid #A22335;
+}
+
+.btn-info:hover {
+    background-color: #56131C;
+    border: 1px solid #56131C;
+}
+
+.btn-info:focus {
+    box-shadow: 0 0 0 3px white;
+}
+
+/* boutons menu rouge bordeau */
+
+.menuButton{
     border-radius: 5px;
     background-color: transparent;
     background-image: none;
-    border-color: rgb(207, 78, 26);
+    border-color: #A22335;
     text-align: center;
     transition: all 0.15s ease-in-out;
-    width: 10em;
+    /* width: 35%; */
     font-size: 1.5rem;
     margin-bottom: 5%;
-    line-height: 1.25;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    white-space: nowrap;
-    font-weight: normal;
-    
 }
 
-.outline-bouton li {
-    color: rgb(207, 78, 26);
+.menuButton li {
+    color: #A22335;
 }
 
-.outline-bouton li:hover {
+.menuButton li:hover {
     color: white;
     transition: all 0.15s ease-in-out;
 }
 
-.outline-bouton:hover {
+.menuButton:hover {
     color: #fff;
-    background-color: rgb(207, 78, 26);
-    border-color: rgb(207, 78, 26);
+    background-color: #A22335;
+    border-color: #A22335;
 }
 
-.outline-bouton:active, .outline-bouton.active,
-.show > .outline-bouton.dropdown-toggle {
+.menuButton:active, .menuButton.active,
+.show > .menuButton.dropdown-toggle {
     color: #fff;
-    background-color: rgb(207, 78, 26);
-    border-color: rgb(207, 78, 26);
+    background-color: #A22335;
+    border-color: #A22335;
 }
 
-.outline-bouton.active li {
+.menuButton.active li {
     color: white;
 }
